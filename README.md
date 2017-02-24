@@ -1,8 +1,7 @@
 # CNPJReceitaFederal
 Codeigniter helper para consultar cadastros de pessoa jurídica na Receita Federal
 
-Faça download do arquivo sample.zip se quiser testar na prática.
-ou, mãos à obra.
+Faça download do arquivo sample.zip se quiser testar na prática, ou, mãos à obra.
 
 Antes de começar, é importe adicionar os seguistes helpers no autoload
 
@@ -178,5 +177,5 @@ e uma view mais ou menos como essa
 </form>
 ```
 
-e pronto, pra testar acesse "sua_url_base"/consulta_cnpj_receita (ex.: http://localhost/sample/consulta_cnpj_receita)
+pronto, pra testar acesse "sua_url_base"/consulta_cnpj_receita (ex.: http://localhost/sample/consulta_cnpj_receita)
 
