@@ -4,6 +4,12 @@ Codeigniter helper para consultar cadastros de pessoa jurídica na Receita Feder
 Faça download do arquivo sample.zip se quiser testar na prática.
 ou, mãos à obra.
 
+Antes de começar, é importe adicionar os seguistes helpers no autoload
+
+```
+$autoload['helper'] = array('url','file');
+```
+
 Crie um helper com o nome "cnpj_receita_helper.php" e adicione o conteúdo abaixo.
 
 ```
@@ -133,12 +139,6 @@ function get_cnpj_receita($cnpj, $letras) {
 	
 	return $empresa;
 }
-```
-
-Adicione os seguistes helpers no autoload
-
-```
-$autoload['helper'] = array('url','file');
 ```
 
 Crie um controlle mais ou menos tipo esse
