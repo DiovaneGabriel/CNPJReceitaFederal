@@ -140,7 +140,7 @@ function get_cnpj_receita($cnpj, $letras) {
 }
 ```
 
-Crie um controlle mais ou menos tipo esse
+Crie um controller mais ou menos tipo esse
 
 ```
 <?php
