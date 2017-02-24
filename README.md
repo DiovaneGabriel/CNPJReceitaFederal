@@ -5,13 +5,13 @@ Faça download do arquivo sample.zip se quiser testar na prática, ou, mãos à 
 
 Antes de começar, é importe adicionar os seguistes helpers no autoload
 
-```
+```php
 $autoload['helper'] = array('url','file');
 ```
 
 Crie um helper com o nome "cnpj_receita_helper.php" e adicione o conteúdo abaixo.
 
-```
+```php
 <?php
 //créditos à este cara tbm...
 // http://blog.mayk.brito.net.br/php-curl-e-captcha-como-eu-entendi-e-aprendi-a-trabalhar-com-isso/
@@ -142,7 +142,7 @@ function get_cnpj_receita($cnpj, $letras) {
 
 Crie um controller mais ou menos tipo esse
 
-```
+```php
 <?php
 defined ( 'BASEPATH' ) or exit ( 'No direct script access allowed' );
 class Consulta_cnpj_receita extends CI_Controller {
@@ -169,7 +169,7 @@ class Consulta_cnpj_receita extends CI_Controller {
 
 e uma view mais ou menos como essa
 
-```
+```php
 <img src='<?php echo base_url($captcha)?>' />
 <form action="<?php echo base_url('consulta_cnpj_receita/consulta_cnpj')?>" method="POST">
 	captcha <input size="8" maxlength="6" name="captcha"> cnpj <input
