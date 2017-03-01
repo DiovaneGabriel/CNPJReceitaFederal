@@ -21,7 +21,6 @@ function get_captcha_cnpj_receita() {
 	$cookie = FCPATH . $dir . 'receita.txt';
 	if (! is_dir ( FCPATH . $dir )) {
 		mkdir ( FCPATH . $dir, 0777, true );
-		mkdir ( FCPATH . $dir, 0777, true );
 	}
 	$ch = curl_init ();
 	curl_setopt_array ( $ch, array (
